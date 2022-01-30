@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/taildwind.css" type="text/css">
+    <link rel="stylesheet" href="css/slider.css" type="text/css">
+    <title>Plantilla</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="w-2/12 bg-gray-800 min-h-screen">
+            <aside>
+                <img src="img/user/utec_logo.png" class="mt-8">
+                <div class="text-white text-center mx-auto mt-8">
+                    <h1 class="text-2xl">Alumno</h1>
+                    <div class="mt-4">
+                        <img class="w-16 mx-auto rounded-full" src="img/user/133864244_1762139377282817_6258023692062631340_n.jpg">
+                        <h3>Aviles Platero Julio Vladimir</h3>
+                        <h2 class="mt-2">25-0842-2017</h2>
+                    </div>
+                    <div class="mt-8">
+                        <!-- Acording menu -->
+
+                        <!-- Capitulo 1-->
+                       <div class="mb-2 mt-2">
+                           <button id="capitulo1"  class="flex w-48 mx-auto bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium hover:text-white hover:bg-gray-700"
+                                   onclick="mostrar_capitulo1()"><img class="w-8 mr-4" src="img/user/ListCapitulo.png">
+                               Capitulo 1
+                           </button>
+                           <div style="display: none;" id="content-capitulo1"> 
+                               <div id="cap1-ej1" class="w-32 bg-gray-700 mx-auto flex mt-2 mb-2 cursor-auto rounded-md">
+                                   <img class="w-8 mr-4" src="img/user/check.png"><a id="cap1-ej1" class="text-white text-lg" href="#"> Ejercicio 1</a>
+                               </div>
+                           </div>
+                       </div>
+                       <!-- Capitulo 2-->
+                       <div class="mb-2 mt-2">
+                            <button id="capitulo2"  class="flex w-48 mx-auto bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium hover:text-white hover:bg-gray-700"
+                                    onclick="mostrar_capitulo2()"><img class="w-8 mr-4" src="img/user/ListCapitulo.png">
+                                Capitulo 2
+                            </button>
+                            <div style="display: none;" id="content-capitulo2"> 
+                                <div id="cap2-ej1" class="w-32 bg-gray-700 mx-auto flex mt-2 mb-2 cursor-auto rounded-md">
+                                    <img class="w-8 mr-4" src="img/user/check.png"><a id="cap2-ej1" class="text-white text-lg" href="#"> Ejercicio 1</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Capitulo 3-->
+                       <div class="mb-2 mt-2">
+                            <button id="capitulo3"  class="flex w-48 mx-auto bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium hover:text-white hover:bg-gray-700"
+                                    onclick="mostrar_capitulo3()"><img id="cap3-ej1" class="w-8 mr-4" src="img/user/ListCapitulo.png">
+                                Capitulo 3
+                            </button>
+                            <div style="display: none;" id="content-capitulo3"> 
+                                <div id="cap3-ej1" class="w-32 bg-gray-700 mx-auto flex mt-2 mb-2 cursor-auto rounded-md">
+                                    <img class="w-8 mr-4" src="img/user/check.png"><a id="cap3-ej1" class="text-white text-lg" href="#"> Ejercicio 1</a>
+                                </div>
+                                <div id="cap3-ej2" class="w-32 bg-gray-700 mx-auto flex mt-2 mb-2 cursor-auto rounded-md">
+                                    <img class="w-8 mr-4" src="img/user/check.png"><a id="cap3-ej2" class="text-white text-lg" href="#"> Ejercicio 1</a>
+                                </div>
+                                <div id="cap3-ej3" class="w-32 bg-gray-700 mx-auto flex mt-2 mb-2 cursor-auto rounded-md">
+                                    <img class="w-8 mr-4" src="img/user/check.png"><a id="cap3-ej3" class="text-white text-lg" href="#"> Ejercicio 1</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Capitulo 4-->
+                       <div class="mb-2 mt-2">
+                            <button id="capitulo4"  class="flex w-48 mx-auto bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium hover:text-white hover:bg-gray-700"
+                                    onclick="mostrar_capitulo4()"><img class="w-8 mr-4" src="img/user/ListCapitulo.png">
+                                Capitulo 4
+                            </button>
+                            <div style="display: none;" id="content-capitulo4"> 
+                                <div id="cap4-ej1" class="w-32 bg-gray-700 mx-auto flex mt-2 mb-2 cursor-auto rounded-md">
+                                    <img class="w-8 mr-4" src="img/user/check.png"><a id="cap4-ej1" class="text-white text-lg" href="#"> Ejercicio 1</a>
+                                </div>
+                                <div id="cap4-ej2" class="w-32 bg-gray-700 mx-auto flex mt-2 mb-2 cursor-auto rounded-md">
+                                    <img class="w-8 mr-4" src="img/user/check.png"><a id="cap4-ej2" class="text-white text-lg" href="#"> Ejercicio 2</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <div class="w-10/12 bg-gray-200 min-h-screen">
+            <!-- <div class="aside_content"></div> -->
+            <aside>
+                    <div class="mx-auto">
+                        <div class="text-center bg-gray-200">                   
+                            <h1 class="bg-gray-800 text-white ml-16 mr-16 text-3xl mt-8 mb-4 font-bold py-2 rounded-md">Capitulo 0 - Ejercicio 0</h1>
+                            <!--  btn donwload -->
+                            <div class="flex">
+                                <a class="flex mx-auto px-8 bg-green-300 py-2 text-center text-justify text-white shadow-xs rounded-md"
+                                    href="" target="_blank" download="">
+                                    <img class="mr-4" src="img/user/icon.png" width="32px"><b>Descargar</b></a>
+                            </div>
+                            <br>
+                            <!-- descripcion -->
+                            <div class="bg-white mr-16 ml-16 mb-8 py-4 rounded-md">
+                                <h3 class="text-xl"><b>Descripcion del Ejercicio:</b></h3>
+                                <div class="text-left">
+                                    <p class="ml-8"> Texto</p>      
+                                </div>
+                            </div>
+                            <!-- Imagenes -->
+                            <div class="container mx-auto">
+                                <img class="mx-auto" src="">
+                                <br>
+                                <img class="mx-auto" src="">
+                                <br>
+                            </div>
+                            <br>
+
+                        </div>
+                    </div>
+            </aside>  
+        </div>
+      </div>
+
+    <script src="./jquery/jquery.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/aside.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
